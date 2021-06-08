@@ -1,0 +1,115 @@
+/* CSS Stylesheets */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+::-webkit-input-placeholder{
+    color:#000;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+.text-size{
+    font-size: 13pt !important;
+}
+
+.fa-input{
+    font-family: FontAwesome;
+}
+
+.nav-tabs{
+    border: 1px solid transparent !important;
+}
+
+.nav-tabs .nav-link{
+    border: 1px solid transparent !important;
+}
+
+.form-control{
+    font-size:15px;
+}
+
+.forgot-link a{
+    font-size:14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.border-custom{
+    border-width: 1px;
+    border-style: solid;
+    font-size: 18px;
+}
+
+.map{
+    width: 100%;
+    height:500px;
+    border:none;
+}
+
+.custom-size{
+    font-size: 19px;
+}
+
+.custom-card:hover{
+    background: transparent !important;
+}
+
+.custom-card .card-body:hover{
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.carousel-cell {
+    width:25%;
+    height: 75vh;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+
+
+.custom1-card{
+    height: 70vh;
+}
+
+.custom1-card img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+.img-custom:hover{
+    animation: pulse;
+    animation-duration: 4s;
+}
+  
+#btnScroll{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:#17a2b8;
+    color:fff;
+    border:1px solid #fff;
+    outline:none;
+    cursor: pointer;
+    z-index: 1;
+}
